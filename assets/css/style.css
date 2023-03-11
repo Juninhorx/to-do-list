@@ -32,3 +32,28 @@ body {
   font-size: 15px;
   color: rgb(151, 151, 151);
 }
+
+input {
+  width: 18rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+button, input{
+  height: 2rem;
+  border-radius: 8px;
+}
+
+button {
+  border: none;
+}
+button:hover {
+  background: #999999;
+}
+button.btn-apagar:active {
+  background: red;
+}
+li {
+  margin-top: 10px; 
+}
